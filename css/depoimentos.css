@@ -89,6 +89,9 @@ padding: 120px 5%;
 }
 
 @media (max-width: 768px) {
+    .depoimentos{
+padding:80px 10%;
+}
     .container-conteudo ul{
     display: grid;
     grid-template-columns:1fr;
@@ -96,19 +99,24 @@ padding: 120px 5%;
 }
 
 .depoimentos .container h2{
-    font-size: 1.7rem;
-    font-family: var(--font-titulo);
-    margin-bottom: 4rem;
-    position: relative;
+    font-size: 1.4rem;
 }
 
 .container-conteudo ul li{
     gap: 1rem;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 10px;
+    width: 35ch;
+}
+
+
+.container-conteudo ul li img{
+    top: -60px;
+    left: 100px;
 }
 .depoimentos .container .button{
-    padding: 20px 30px;
+    padding: 20px 20px;
     font-size: 1rem;
+    text-align: center;
 }
 }

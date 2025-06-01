@@ -99,5 +99,11 @@
     padding: 25px 30px;
     font-size: 1rem;
 }
+
+.beneficios .container .button{
+    padding:  20px;
+    font-size: 1.125rem;
+    text-align: center;
+}
 }
 

@@ -45,11 +45,21 @@
     .cta{
     padding:40x 5%;
 }
+
+
+.cta .container h2{
+    font-size: 2.5rem;
+    margin-bottom: 4rem;
+
+}
+
 .cta .container{
     grid-template-columns: 1fr;
 }
 .cta-conteudo .button{
     margin-bottom: 4rem;
+    text-align: center;
+    padding: 20px;
 }
 
 }
