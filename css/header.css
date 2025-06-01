@@ -1,0 +1,27 @@
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+
+.header-menu img {
+    max-width: 200px;
+}
+
+.header-menu img:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+
+.button:hover{
+    transform:translateY(-5px);
+    transition: transform 0.3s ease;
+}
+@media (max-width: 768px) {
+    .header-menu img {
+    max-width: 100px;
+}
+}

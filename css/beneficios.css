@@ -1,0 +1,103 @@
+.beneficios {
+    padding: 120px 5%;
+    background: #1A2E44;
+}
+
+.beneficios .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.beneficios .container h2{
+    font-size: 3rem;
+    font-family: var(--font-titulo);
+    color: var(--cor-fundo-cinza-claro);
+    position: relative;
+}
+
+.beneficios .container h2::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: var(--cor-destaque-vermelho);
+    position: absolute;
+    bottom:-0px;
+
+}
+
+.beneficios .container h2 span{
+    color: var(--cor-destaque-vermelho);
+}
+
+.beneficios .container ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.beneficios-texto ul li {
+    font-size: 1.5rem;
+    color: var(--cor-fundo-cinza-claro);
+    font-family: --font-texto;
+    max-width:100%;
+    line-height:1.44;
+    transition:transform 0.2s;
+    cursor: pointer;
+    border: 2px solid  var(--cor-fundo-cinza-claro);
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    flex: 1;
+}
+
+.beneficios-texto ul li:hover {
+    transform: scale(1.02);
+}
+
+.beneficios-texto i {
+    color: #28B463;
+    font-size: 2rem;
+}
+
+.beneficios .container .button{
+    padding: 20px 30px;
+    font-size: 1.125rem;
+}
+
+@media (max-width: 768px)  {
+
+.beneficios .container h2{
+    font-size: 3rem;
+    text-align: center;
+
+}
+
+.beneficios .container h2::before{
+ width: 100%;
+}
+
+
+.beneficios .container ul {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .beneficios-texto ul li {
+        font-size: 1.4rem;
+    }
+
+    .beneficios .container .button{
+    padding: 25px 30px;
+    font-size: 1rem;
+}
+}
+

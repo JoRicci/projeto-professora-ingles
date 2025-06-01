@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font-titulo: "Poppins", sans-serif;
+    --font-texto: "Montserrat", sans-serif;
+
+    --cor-primaria-escuro: #1A2E44;
+    /* Azul Marinho Escuro */
+    --cor-destaque-vermelho: #D92323;
+    /* Vermelho Vibrante */
+    --cor-fundo-branco: #FFFFFF;
+    /* Branco Puro */
+    --cor-fundo-cinza-claro: #d4d4d4;
+    /* Cinza Claro */
+
+    /* Cores de Destaque / Acentos */
+    --cor-acento-dourado: #FFD700;
+    /* Dourado Suave */
+    --cor-acento-azul-ceu: #64B5F6;
+    /* Azul Céu */
+    --cor-acento-verde-esmeralda: #28B463;
+    /* Verde Esmeralda */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    background-color: #ffffff;
+    color: var(--cor-primaria-escuro);
+}
+
+/* *{
+    outline: 1px solid lime;
+} */
+
+h1,
+h2,
+h3,
+p,
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: var(--cor-destaque-vermelho);
+    color: var(--cor-fundo-branco);
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: var(--font-texto);
+    display: inline-block;
+    max-width: max-content;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    background-color: #c62828;
+}
+
+img{
+    border-radius: 4px;
+    display: block;
+    max-width: 100%;
+}
